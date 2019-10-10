@@ -1,0 +1,39 @@
+{
+  "name": "svelte-template-electron",
+  "version": "0.0.1",
+  "description": "A template for building Electron apps with Svelte",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development electron .",
+    "dev": "rollup -cw",
+    "build": "rollup -c",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^6.0.12",
+    "electron-builder": "^21.2.0",
+    "rollup": "^1.23.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.1.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "svelte": "^3.12.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "chokidar": "^3.2.1",
+    "cross-env": "^6.0.3"
+  }
+}

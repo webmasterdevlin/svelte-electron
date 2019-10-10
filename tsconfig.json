@@ -1,0 +1,13 @@
+{
+	"exclude": ["node_modules"],
+
+	"compilerOptions": {
+ 		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+
+		"lib": ["dom", "dom.iterable", "esnext", "scripthost"]
+	}
+}
